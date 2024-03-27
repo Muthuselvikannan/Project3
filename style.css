@@ -1,0 +1,69 @@
+
+.container{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row{
+    text-align: center;
+    padding: 5px 2vw;
+    .heading{
+        color: green;
+    }
+
+    .gamepanel{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .player{
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content: space-evenly;  
+        height: 250px;      
+    }
+    .reset-btn{
+        background-color: rgb(234, 126, 126);
+        padding: 5px 2vw;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+    }
+    .reset-btn:disabled{
+        background-color: gray;
+    }
+    .reset-btn:enabled{
+        background-color: green;
+    }
+    .dice{
+        margin: 50px 0px 50px 0px;
+        height: 200px;
+
+    }
+    .score{
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    .rollbtn{
+        background-color: rgb(95, 228, 82);
+        padding: 5px 2vw;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+    }
+    .rollbtn:enabled{
+        background-color: rgb(95, 228, 82);
+    }
+    .rollbtn:disabled{
+        background-color: gray;
+    }
+    .content{
+        text-align: center;
+        font-weight: bold;
+        margin: 20px;
+        padding : 10px;
+        font-size: x-large;
+    
+}
+}
